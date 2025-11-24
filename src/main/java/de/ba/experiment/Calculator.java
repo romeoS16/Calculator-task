@@ -17,7 +17,29 @@ public class Calculator {
      */
 
     public static int calculate(int a, int b, char op) {
-        // TODO: implementieren
-        return 0;
+
+         switch (op) {
+             case '+' -> {
+                 return a + b;
+             }
+             case '-' -> {
+                 return a - b;
+             }
+             case '*' -> {
+                 return a * b;
+             }
+             case '/' -> {
+                if (b == 0){
+                    //Ohne Exception
+                    //return 0;
+                    throw new IllegalArgumentException("you cant divide by zero");
+                }
+                return  a / b;
+            }
+            default ->
+                    //Ohne Exception
+                    //return 0;
+                    throw new IllegalArgumentException("wrong operator");
+        }
     }
 }
