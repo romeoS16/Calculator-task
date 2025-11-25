@@ -32,12 +32,10 @@ Schreiben Sie Tests in der [CalculatorTest](src/test/java/CalculatorTest.java) K
 Grundsätzlich arbeiten Sie wie in Gruppe B:
 
 (1) **Red** – Test schreiben
-- Schreiben Sie zuerst eigene Testfälle in MiniCalculatorTest (ohne KI), z.B.:
-  - calculate(3, 5, '+') → 8
-  - calculate(10, 4, '-') → 6
+- Schreiben Sie zuerst eigene Testfälle in CalculatorTest
 
 (2) **Green** – minimaler Code
-- Implementieren Sie MiniCalculator.calculate(...) so, dass Ihre Tests grün werden.
+- Implementieren Sie Calculator.calculate(...) so, dass Ihre Tests grün werden.
 
 (3) **Refactor** – aufräumen
 - Verbessern Sie Code und evtl. Tests, ohne das Verhalten zu ändern.
@@ -71,7 +69,7 @@ Sie dürfen eine KI (z.B. ChatGPT) zur Unterstützung einsetzen – aber nur nac
 **Technische Hinweise**
 - Projekt-Typ: Maven, Java (z.B. JDK 17), JUnit 5.
 - Tests ausführen:
-  - In IntelliJ: Rechtsklick auf MiniCalculatorTest → Run 'MiniCalculatorTest'
+  - In IntelliJ: Rechtsklick auf CalculatorTest → Run 'CalculatorTest'
   - Über die Konsole: mvn test
 
 **Rahmenbedingungen**
