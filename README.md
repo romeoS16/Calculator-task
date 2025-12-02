@@ -48,12 +48,16 @@ Grundsätzlich arbeiten Sie wie in Gruppe B:
 
 Sie dürfen eine KI (z.B. ChatGPT) zur Unterstützung einsetzen – aber nur nach bestimmten Regeln:
 
-(1) Wofür Sie KI verwenden dürfen
-- Vorschläge für weitere Testfälle (z.B. Sonderfälle)
-- Ideen für eine saubere if/else- oder switch-Struktur
-- Refactoring-Vorschläge (z.B. Dopplungen vermeiden)
+(1) Zuerst eigene Tests, dann KI
+- Die Tests werden in jedem Fall zuerst von den Studierenden **selbst** geschrieben
+- Erst danach ist KI erlaubt:
 
-(2) KI-Log führen ([ki-log.md](ki-log.md)
+(2) Wofür Sie KI verwenden dürfen
+- Ideen für eine saubere Implementierung (z.B. Vorverarbeitung des Strings, Schleifenlogik)
+- Refactoring-Vorschläge (z.B. Hilfsmethoden, bessere Namen)
+- Vorschläge für weitere Testfälle (z.B. Sonderfälle, Leerzeichen-Varianten)
+
+(3) KI-Log führen ([ki-log.md](ki-log.md)
 - Jede KI-Nutzung dokumentieren:
   - Datum/Uhrzeit
   - verwendeter Prompt
